@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h4{
+    color: red;
+}
+.div-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.div-menu-container>label{
+    color: blue;
+    text-align: center;
+}
+
+.div-menu-container>select{
+    border-radius: 10px;
+    text-align: center;
+    color: red;
+    box-shadow: 0px 0px 10px black;
+
+}
+.btn-container{
+    margin-top: 20px;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+
+p{
+    border-radius: 10px;
+    padding: 30px;
+    color: red;
+    background-color: lightblue;
+    box-shadow: 0px 0px 10px black;
+}
